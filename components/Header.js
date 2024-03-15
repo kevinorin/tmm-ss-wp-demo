@@ -1,6 +1,6 @@
 // Header.js
 "use client"; 
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { GlobeAltIcon, MagnifyingGlassIcon, Bars3Icon, UserIcon } from '@heroicons/react/24/outline'
 import LogoAirBNB01 from '../components/icons/LogoAirBNB01.js'
 
@@ -29,9 +29,9 @@ export default function Header() {
       <div className={`flex flex-col items-center space-x-4 space-y-4 ${!showSearch && 'md:space-y-0'}`}>
         <nav>
           <ul className="flex space-x-4">
-            <li>Stays</li>
-            <li>Experiences</li>
-            <li>Events</li>
+            <li className="px-3 py-2 rounded-full bg-transparent hover:bg-gray-100 cursor-pointer">Stays</li>
+            <li className="px-3 py-2 rounded-full bg-transparent hover:bg-gray-100 cursor-pointer">Experiences</li>
+            <li className="px-3 py-2 rounded-full bg-transparent hover:bg-gray-100 cursor-pointer">Events</li>
           </ul>
         </nav>  
         {showSearch && (

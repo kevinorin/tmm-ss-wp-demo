@@ -32,7 +32,7 @@ export default function StayUtilBar() {
   };
   
   return (
-    <div className="sticky top-0 z-40 flex items-center justify-between w-full mx-auto px-5 lg:px-20 py-5 space-x-8">
+    <div className="sticky top-[100px] z-40 flex items-center justify-between w-full mx-auto px-5 lg:px-20 py-5 space-x-8 bg-white/80 backdrop-blur-sm border-b border-gray-100 shadow-sm">
       <div className="relative flex space-x-14 items-center justify-between overflow-x-scroll scrollbar-hide">
         {showLeftChevron && (
           <button onClick={() => scroll('left')} className="absolute left-0 z-50 p-1 rounded-full border border-gray-2 hover:scale-105 hover:shadow-md bg-white/60 backdrop-blur-sm">

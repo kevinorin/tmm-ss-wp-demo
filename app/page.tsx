@@ -33,7 +33,7 @@ export default async function Home() {
       <Banner />
       <main className="w-full mx-auto px-5 lg:px-20">
         <section className="py-10">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 2xl:grid-cols-6 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
             {wpData.map((post: Post) => ( // Explicitly declare the type of 'post'
               <StayCard
                 key={post.id}

@@ -41,7 +41,7 @@ export default function Header() {
 
       {/* User Menu */}
       <div className="flex items-center space-x-4 justify-end text-gray-500 cursor-pointer">
-        <p className="hidden md:inline">List your home</p>
+        <p className="hidden md:inline">List your stay</p>
         <GlobeAltIcon className="h-6 w-6" />
         <div className="flex items-center space-x-4 border-2 p-2 rounded-full">
           <Bars3Icon className="h-6 w-6" />

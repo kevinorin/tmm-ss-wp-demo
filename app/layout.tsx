@@ -6,7 +6,7 @@ import "./globalicons.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Airbnb Clone with WordPress Rest API, Next.js and TailwindCSS",
+  title: "Global Stays with WordPress Rest API, Next.js and TailwindCSS",
   description: "Created by Kevin Williams, Software Engineer",
 };
 

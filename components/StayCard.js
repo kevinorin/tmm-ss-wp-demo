@@ -3,8 +3,8 @@ import React from 'react';
 
 export default function StayCard({ title, location, nightlyRate, cleaningFee, imageUrl, imageAlt }) {
   return (
-    <div className="overflow-hidden cursor-pointer">
-      <img className="w-full rounded-xl " src={imageUrl} alt={imageAlt || "Stay image"} />
+    <div className="overflow-hidden cursor-pointer transition transform duration-200 ease-out group">
+      <img className="w-full rounded-xl" src={imageUrl} alt={imageAlt || "Stay image"} />
       <div className="px-3 py-4">
         <div className="flex text-base items-center justify-between">
           <h3 className="grow font-bold truncate">{title}</h3>

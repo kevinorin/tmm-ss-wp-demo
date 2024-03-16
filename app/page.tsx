@@ -1,7 +1,9 @@
 import React from "react";
 import Header from "../components/Header";
 import Banner from "../components/Banner";
+import StayUtilBar from "../components/StayUtilBar";
 import StayCard from "../components/StayCard"; // Adjust the path as necessary
+import Footer from "../components/Footer";
 
 // Define a type for the post structure
 interface Post {
@@ -31,6 +33,7 @@ export default async function Home() {
     <div>
       <Header />
       <Banner />
+      <StayUtilBar />
       <main className="w-full mx-auto px-5 lg:px-20">
         <section className="py-10">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
@@ -48,6 +51,7 @@ export default async function Home() {
           </div>
         </section>
       </main>
+      <Footer />
     </div>
   );
 }
